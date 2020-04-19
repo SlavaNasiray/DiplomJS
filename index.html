@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat+Alternates:wght@400;500;700&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Diplom Project</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="center">
+
+            <header>
+                
+                <section class="nav_menu">
+                    <div class="menu">
+                        <div class="image_logo"></div>
+                        <div>
+                            <button class="btn" id="mainMenu">Главная</button>
+                        </div>
+                        <div>
+                            <button class="btn" id="catalogProduct">Каталог продукции</button>
+                        </div>
+                        <div>
+                            <button class="btn" id="about_company">О Компании</button>
+                        </div>
+                        <div>
+                            <button class="btn" id="blog_company">Блог компании</button>
+                        </div>
+                        <div>
+                            <button class="btn" id="what_about">F.A.Q</button>
+                            <div class="wtf" id="wtf"></div>
+                        </div>
+                        <div class="basket_area">
+                            <span>Корзина<i class="fas fa-shopping-basket basket" id="basket"></i> <span class="catalog_counter">0</span></span>
+                        </div>
+                        <div>
+                            <button id="authorizationBtn" class="authorization_btn btn">Авторизоваться</button>
+                        </div>
+                        <div class="search_area">
+                            <input type="text" id="searchInput" placeholder="Поиск товара" class="searchInput" value="">
+                            <input type="button" value="Найти" id="searchBtn" class="searchBtn">
+                        </div>   
+                        <div>
+                            <select id="select_Lang" class="select_Lang">
+                                <option>Rus</option>
+                                <option>Eng</option>
+                            </select>
+                        </div>                       
+                    </div>    
+                </section>
+
+            </header>
+
+                <section class="container1">
+                    <h2>Наши товары</h2>                    
+                    <div class="carousel" id="first">
+                        <div class="carousel-hider">
+                            <ul class="carousel-list">
+                                <li class="carousel-element">
+                                    <img src="./image/procact.jpg" alt="1">
+                                    <p>Процессоры</p>
+                                </li>
+                                <li class="carousel-element">
+                                    <img src="./image/monitorGen.jpg" alt="2">
+                                    <p>Мониторы</p>
+                                </li>
+                                <li class="carousel-element">
+                                    <img src="./image/motherboard.jpg" alt="3">
+                                    <p>Материнские платы</p>
+                                </li>
+                                <li class="carousel-element">
+                                    <img src="./image/sborkaGen.jpg" alt="4">
+                                    <p>Готовые сборки</p>
+                                </li>
+                                <li class="carousel-element">
+                                    <img src="./image/ozuGen.jpg" alt="5">
+                                    <p>Оперативная память</p>
+                                </li>
+                                <li class="carousel-element">
+                                    <img src="./image/perefGen.jpg" alt="6">
+                                    <p>Перефирия</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="carousel-arrow-left"></div>
+                        <div class="carousel-arrow-right"></div>
+                        <div class="carousel-dots"></div>
+                    </div>
+
+                    <h2><span class="action">Акция!!!</span></h2>
+                    <div id="countdown" class="countdown">
+                        <div class="countdown-number">
+                            <span class="days countdown-time"></span>
+                            <span class="countdown-text">Days</span>
+                        </div>
+                        <div class="countdown-number">
+                            <span class="hours countdown-time"></span>
+                            <span class="countdown-text">Hours</span>
+                        </div>
+                        <div class="countdown-number">
+                            <span class="minutes countdown-time"></span>
+                            <span class="countdown-text">Minutes</span>
+                        </div>
+                        <div class="countdown-number">
+                            <span class="seconds countdown-time"></span>
+                            <span class="countdown-text">Seconds</span>
+                        </div>
+                    </div>
+                    <div class="carousel" id="second">
+                        <div class="carousel-hider">
+                            <ul class="carousel-list">
+                                <li class="carousel-element">
+                                    <img src="./image/proc.jpg" alt="1">
+                                    <p>Процессоры</p>
+                                </li>
+                                <li class="carousel-element">
+                                    <img src="./image/monitor.jpg" alt="2">
+                                    <p>Мониторы</p>
+                                </li>
+                                <li class="carousel-element">
+                                    <img src="./image/motherboard2.jpg" alt="3">
+                                    <p>Материнские платы</p>
+                                </li>
+                                <li class="carousel-element">
+                                    <img src="./image/sborka.jpg" alt="4">
+                                    <p>Готовые сборки</p>
+                                </li>
+                                <li class="carousel-element">
+                                    <img src="./image/ozu.jpg" alt="5">
+                                    <p>Оперативная память</p>
+                                </li>
+                                <li class="carousel-element">
+                                    <img src="./image/peref.jpg" alt="6">
+                                    <p>Перефирия</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="carousel-arrow-left"></div>
+                        <div class="carousel-arrow-right"></div>
+                        <div class="carousel-dots"></div>
+                    </div>
+                </section>
+
+                <section class="container2">
+                    <div class="txt1 wow bounceInLeft">
+                        <h3>C нами удобно работать!</h3>
+                        <p>Мы фанатики своей работы, деньги для нас вторичны.</p>
+                    </div>
+                    <div class="txt2 wow bounceInLeft">
+                        <h3>Мы всегда на связи!</h3>
+                        <p>Каждое предложение клиента выносится на еженедельную комиссию дирекции компании, 
+                            а потому мы действительно делаем сервис, ориентированный на клиента. 
+                            Более 70% предложений воплощаются в жизнь.</p>
+                    </div>
+                    <div class="txt3 wow bounceInRight">
+                        <h3>Наши партнеры довольны!</h3>
+                        <p>Мы являемся одним трех официальных дистрибьюторов компании N, 
+                            следовательно, продаем дешевле.</p>
+                    </div>
+                    <div class="txt4 wow bounceInRight">
+                        <h3>Мы знаем что вам надо!</h3>
+                        <p>Компания не использует программы кредитования, 
+                            а потому может позволить себе максимально комфортный 
+                            для клиента принцип ценообразования.</p>
+                    </div>
+                    <div class="txt5 wow bounceInLeft">
+                        <h3>Быстрая доставка в любую точку города!</h3>
+                        <p>Наше конкурентное преимущество в том, что мы в 97% случаев доставляем покупку 
+                            (собираем мебель, выдергиваем зубы, красим бордюры и т.п) 
+                            раньше означенного нами же срока</p>
+                    </div>
+                    <div class="txt6 wow bounceInLeft">
+                        <h3>Мы высоко ценим наших сотрудников!</h3>
+                        <p>Наши сотрудники отдыхают 2 дня в неделю, 
+                            а потому могут позволить себе более продуктивно работать в остальные дни.</p>
+                    </div>
+                    <div class="txt7 wow bounceInRight">
+                        <h3>Мы знаем что для Вас важно!</h3>
+                        <p>Компания не использует программы кредитования, 
+                            а потому может позволить себе максимально комфортный 
+                            для клиента принцип ценообразования.</p>
+                    </div>
+                    <div class="txt8 wow bounceInRight">
+                        <h3>Мы заботимся о своих сотрудниках!</h3>
+                        <p>Наши сотрудники отдыхают 2 дня в неделю, 
+                            а потому могут позволить себе более продуктивно работать в остальные дни.</p>
+                    </div>
+                </section>
+
+                <section class="container3">
+                    <div class="txt">
+                        <h1>Достоиннства компании:</h1>
+                    </div>
+                    <div class="txt_great_company">
+                        <p>Специалисты компании ежегодно проходят специальные курсы повышения квалификации, 
+                            посещают семинары, ездят на стажировку, участвуют в конференциях и так далее. 
+                            Словом, у нас очень умные парни, и каждый год они становятся еще умнее.</p>
+                    </div>
+                    <div class="txt_great_company">
+                        <p>Качество наших товаров настолько высокое, что мы почти не тратимся на рекламу, 
+                            люди находят нас сами. Следовательно, сбереженные на рекламе средства 
+                            «облегчают» стоимость продукции на N%.</p>
+                    </div>
+                    <div class="txt_great_company">
+                        <p>Оптимизация мощностей (расходов, социальных выплат и т.п.) 
+                            позволили компании на 4.7 % понизить цены по сравнению с конкурентами. 
+                            Отметим, что в преимуществах компании, да и вообще в любых текстах, важна конкретика. 
+                            Чем конкретней цифра, тем лучше.</p>
+                    </div>
+                    <div class="txt_great_company">
+                        <p>Штат сотрудников увеличен втрое по сравнению с прошлым годом.</p>
+                    </div>
+                    <div class="txt_great_company">
+                        <p>Оказываем круглосуточную поддержку нашим клиентам.В любое время дня и ночи!</p>
+                    </div>
+                    <div class="txt_great_company">
+                        <p>Гарантийное обслуживание приобретенной у нас техники!</p>
+                    </div>
+                </section>
+
+                <section class="container4">
+
+                    <div class="change_optiion">
+                        <div>
+                            <p>Процессоры</p>
+                            <select id="change_proc">
+                                <option>AMD</option>
+                                <option>Intel</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p>Мониторы</p>
+                            <select id="change_monitor">
+                                <option>Samsung</option>
+                                <option>Nec</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p>Материнские платы</p>
+                            <select id="change_motherboard">
+                                <option>A370</option>
+                                <option>H370</option>
+                                <option>A470</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p>Переферия</p>
+                            <select id="cgange_pereferi">
+                                <option>Мышки</option>
+                                <option>Клавиатуры</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p>Оперативная память</p>
+                            <select id="cgange_ram">
+                                <option>Мышки</option>
+                                <option>Клавиатуры</option>
+                                <option>Принтеры</option>
+                                <option>Наушники</option>
+                            </select>
+                        </div>                       
+                    </div>
+
+                    <div class="container_products"></div>
+
+                </section>
+
+                <section class="container5" >
+
+                </section>
+
+                <section class="container6">
+
+                </section>
+
+                <section class="container7 basket">
+
+                </section>
+
+                <section class="container8 authorization">
+
+                </section>
+        </div>
+    </div>
+    <script src="./js/mechanism.js"></script>
+    <script src="./js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <script>
+            new Carousel('first');
+            new Carousel('second');
+        </script>
+    <script src="./js/carousel.js"></script>    
+    <script src="./js/timer.js"></script>            
+    <script src="./js/all.js"></script>
+</body>
+</html>
